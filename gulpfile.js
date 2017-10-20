@@ -2,6 +2,8 @@ const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass');
 
+// At this moment only need this functionalities for let's get started all my projects
+
 // Compile Sass & Inject Into Browser
 gulp.task('sass', function() {
     return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
